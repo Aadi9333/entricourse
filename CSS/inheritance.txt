@@ -1,0 +1,2 @@
+parent element-if child has not seperate styling then parent styling is follows
+child element- if child has separate styling then parent styling is not follows

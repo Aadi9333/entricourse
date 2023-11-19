@@ -1,0 +1,21 @@
+With id -
+#id1(idname){
+    prop: val:
+}
+with class-
+.class1(class name){
+    prop: val;
+}
+all(overall page)-
+*{
+prop: val;
+}
+with element paragraphs or heading like-
+p{
+    prop: val;
+}
+-select only p element with class name=class1
+p.class1(This means in paragraph lo  class1 ane perutho vunna vaatannitiki apply avuthundi){
+    prop: val;
+}
+

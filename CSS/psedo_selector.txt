@@ -1,0 +1,16 @@
+ivi behaviour batti panichesthayi
+input:checked {
+    prop: val;
+}
+div:empty{
+    prop: val;
+}
+a:hover{
+    prop: val;
+}
+first-child {
+    prop: val;
+}
+p:last-child{
+    prop: val;
+}

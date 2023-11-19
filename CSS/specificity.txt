@@ -1,0 +1,7 @@
+specificity means - styles are giving in various types
+those who are: inline , classes, ids and elements
+but in specificity to take priority wise that is 
+1st-inline
+after-ids
+after-classes
+and after -elements.
