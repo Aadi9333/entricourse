@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0039)http://127.0.0.1:5500/CSS/MYresumE.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY RESUME</title>
     <style>
@@ -126,10 +126,10 @@ margin-bottom: 3px;
 </article>
     <article class="item"><p class="abc">Srikakulam-532421.</p><p class="ghi">Mobile no: 9985589333</p>
 </article>
-</section>    
+</article></section>    
     <hr>
-<H3>CAREER OBJECTIVE:-</H3>
-<P>To be the part a the organization to contributing my knowledge and to make myself for advancement in my personal and organizational growth.</P>
+<h3>CAREER OBJECTIVE:-</h3>
+<p>To be the part a the organization to contributing my knowledge and to make myself for advancement in my personal and organizational growth.</p>
 <h3>EXPERIENCE:-</h3>
 <ul>
     <li>2 Year 10months working as a Clerk/ Cashier in Andhra Pradesh Mahesh co-op Urban bank ltd (Till date).</li>
@@ -139,7 +139,7 @@ margin-bottom: 3px;
 </ul>
     <h3>EDUCATIONAL DETAILS:-</h3>
     <table>
-        <tr>
+        <tbody><tr>
             <th>Qualification</th>
             <th>University</th>
             <th>Year of passing</th>
@@ -175,7 +175,7 @@ margin-bottom: 3px;
     <td>2002</td>
     <td>77.7%</td>
 </tr>
-    </table>
+    </tbody></table>
     <h3>COMPUTER SKILLS:-</h3>
     <p>Operating systems : Window 98,Windows 10</p>
     <h3>PROFESSIONAL PROFILE:-</h3>
@@ -186,8 +186,7 @@ margin-bottom: 3px;
 
     </ul>
     <h3>PERSONAL PROFILE:-</h3>
-    <pre>
-    <d1>Name                    :   Adinaid Tharlada</d1>
+    <pre>    <d1>Name                    :   Adinaid Tharlada</d1>
     <d1>Date of Birth         :   16-07-1986</d1>
     <d1>Father Name          :   Bhaskararao</d1>
     <d1>Marital status         :   Married</d1>
@@ -202,11 +201,49 @@ margin-bottom: 3px;
     <p id="add">Srikakulam-532421.</p>
     <div>
     <h3>DECLARATION:-</h3>
-    <P>I hereby declare that all the above furnished information and particulars are genuine and reliable to the best of my knowledge and belief. </P>
+    <p>I hereby declare that all the above furnished information and particulars are genuine and reliable to the best of my knowledge and belief. </p>
     <h4>Date: </h4>
     <h4>Place:</h4>
     <h5 id="name">(Adinaidu Tharlada)</h5>
     <h4 id="sig">Signature</h4>
 </div>
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
